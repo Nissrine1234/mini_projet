@@ -1,0 +1,53 @@
+.user-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Place le profil à gauche et le bouton à droite */
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style de la section profil */
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacement entre l'image et le texte */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Style de l'image du profil */
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-image.large {
+    width: 200px;
+    height: 200px;
+}
+
+/* Texte d'accueil */
+.user-info {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}
+
+/* Style du bouton de déconnexion */
+.logout-button {
+    padding: 8px 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s ease;
+}
+
+.logout-button:hover {
+    background-color: #c0392b;
+}

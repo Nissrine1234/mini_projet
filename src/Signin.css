@@ -1,0 +1,119 @@
+/* Style pour le conteneur principal */
+.login-container, .register-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #5a91ea, #9b5aca);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Titre */
+.login-container h1, .register-container h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Labels */
+.login-container label, .register-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+
+/* Champs de saisie */
+.login-container input, .register-container input, .register-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #f5f5f5;
+}
+
+/* Bouton de soumission */
+.login-container button, .register-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover, .register-container button:hover {
+    background-color: #444;
+}
+
+.login-container button:disabled, .register-container button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+/* Messages */
+.login-container ul, .register-container ul {
+    color: rgb(160, 44, 44);
+    text-align: left;
+}
+
+.login-container ul li, .register-container ul li {
+    margin-top: 5px;
+}
+
+/* Ombre interne pour les champs de saisie */
+.login-container input:focus, .register-container input:focus, .register-container select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+/* Lien "Not Registered?" */
+.login-container span, .register-container span {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000;
+}
+
+.login-container nav a, .register-container nav a {
+    color: #04284f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container nav a:hover, .register-container nav a:hover {
+    text-decoration: underline;
+}
+/* Style pour les boutons radio */
+.register-container .radio-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.register-container .radio-group input {
+    margin-left: -70px;
+    margin-bottom: 0;
+}
+
+.register-container .radio-group label {
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+}
+.register-container .radio-group span{
+    margin-top: 0;
+    margin-left: 24px;
+    margin-right: 0;
+}
